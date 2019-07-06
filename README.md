@@ -1,5 +1,7 @@
 # Typerift
 
+[![npm version](https://badge.fury.io/js/typerift.svg)](https://badge.fury.io/js/typerift)
+
 A command-line tool for creating TypeScript interfaces from Scala case classes.
 
 ## Installation
@@ -38,7 +40,7 @@ Running `typerift Driver.scala` will yield the following:
 
 ```typescript
 interface Driver {
-    id: any;  // Long
+    id: number;  // Long
     first: string;  // String
     last: string;  // String
     vehicle: any;  // Vehicle

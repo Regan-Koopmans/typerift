@@ -22,6 +22,7 @@ let typeMap = {
     Int: 'number',
     String: 'string',
     Double: 'number',
+    Long: 'number',
     Float: 'number',
     Boolean: 'boolean',
     Char: 'char'
@@ -46,7 +47,7 @@ results.forEach(caseClass => {
 
 
     let tsClass = `
-// Typerift v1.0.2
+// Typerift v1.0.3
 // Generated from ${sourcePath} on ${new Date()}
 // Do not modify this file directly!
 
