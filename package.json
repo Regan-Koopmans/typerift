@@ -1,0 +1,15 @@
+{
+  "name": "typerift",
+  "version": "1.0.0",
+  "description": "Generate TypeScript interfaces from Scala case classes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["TypeScript", "Scala"],
+  "author": "Regan Koopmans",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
