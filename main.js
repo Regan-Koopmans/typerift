@@ -46,7 +46,7 @@ results.forEach(caseClass => {
 
 
     let tsClass = `
-// Scallops v1.0.0 
+// Typerift v1.0.2
 // Generated from ${sourcePath} on ${new Date()}
 // Do not modify this file directly!
 
@@ -62,7 +62,7 @@ interface ${className} {\n`
         tsClass += `    ${pair[0]}: ${type};  // ${pair[1]}\n`
     })
 
-    tsClass += '}'
+    tsClass += '}\n'
 
     fs.writeFile(`${className}.ts`, tsClass, (err, file) => {
 

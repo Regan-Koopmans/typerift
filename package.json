@@ -1,6 +1,6 @@
 {
   "name": "typerift",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate TypeScript interfaces from Scala case classes",
   "main": "main.js",
   "scripts": {
@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2"
+  },
+  "bin": {
+    "typerift": "main.js"
   }
 }
